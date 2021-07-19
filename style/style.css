@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+  color: #333;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+a:link {
+  color: #666;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: #888;
+}
+
+a:active {
+  color: #888;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+div#wrap {
+  width: 1200px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+div#wrap > * {
+  border: 1px solid #000;
+}
+
+header#header {
+  height: 100px;
+  border: 1px solid #000;
+
+  justify-content: space-between;
+}
+
+#header > div#headerLogo {
+  height: 100px;
+  line-height: 100px;
+  /* border: 1px solid #08f; */
+}
+
+#header #gnb {
+  width: 620px;
+
+  /* border: 1px solid #08f; */
+  margin-right: 20px;
+}
+
+#header #gnb ul#mainMenu {
+  height: 100px;
+  /* border: 1px solid #f80; */
+
+  align-items: center;
+}
+
+#header #gnb a {
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+
+  display: inline-block;
+}
+
+#header #gnb ul.subMenu {
+  display: none;
+
+  position: absolute;
+}
+
+#header .mainLi:hover > a,
+#header .subLi > a:hover {
+  color: #fff;
+  font-weight: bold;
+  background-color: #08f;
+}
+
+div#slide {
+  height: 300px;
+  border: 1px solid #000;
+}
+
+#slide a {
+  width: 1200px;
+  height: 300px;
+
+  /* border: 1px solid #000; */
+  display: inline-block;
+  position: relative;
+}
+
+#slide span {
+  color: #08f;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #rgba(255, 255, 255, 0.85);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+div#contents {
+  height: 200px;
+  border: 1px solid #000;
+}
+
+footer#footer {
+  height: 100px;
+  border: 1px solid #000;
+}
