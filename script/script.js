@@ -23,6 +23,11 @@ $("#shuttleFrame").css({"maegin-top":"0px"});
     
     });
 
+    $("#bbs button"),click(function(){
+        $("#bbs button").removeClass("selected");
+        $(this).addClass("selected");
+    });
+
 
 
 
